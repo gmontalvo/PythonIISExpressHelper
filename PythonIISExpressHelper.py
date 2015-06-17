@@ -39,7 +39,7 @@ if len(argv) > 1:
     args = [
         IIS,
        '/systray:false',
-       '/path:{0}'.format(os.path.dirname(PROJECT)),
+       '/path:{0}'.format(os.path.dirname(argv[1])),
        '/port:{0}'.format(element.firstChild.nodeValue),
     ]
 
